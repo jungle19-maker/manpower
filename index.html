@@ -1,287 +1,842 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Manpower Resources India Private Limited — Recruitment & Staffing</title>
-  <meta name="description" content="Manpower Resources India Private Limited helps businesses find the right talent and job seekers find the perfect opportunities. Recruitment, head-hunting and staffing solutions in Noida and across India.">
-  <meta name="keywords" content="manpower, recruitment, staffing, headhunting, hiring, Noida, India, HR consultancy">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <meta name="theme-color" content="#f8fbff">
+  <!-- ===== META & SEO ===== -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <title>Manpower Resources India Private Limited | Recruitment & Staffing Consultancy</title>
+  <meta name="description" content="Manpower Resources India Private Limited – Leading manpower consultancy helping businesses find top talent and job seekers find perfect opportunities. Based in Noida." />
+  <meta name="keywords" content="manpower consultancy, recruitment agency India, staffing solutions, head hunting, HR consultancy Noida, placement company India, top recruitment firm" />
+  <meta name="author" content="Manpower Resources India Private Limited" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Manpower Resources India Private Limited" />
+  <meta property="og:description" content="Helping businesses find the right talent and job seekers find the perfect opportunities." />
+  <meta property="og:type" content="website" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://manpowerresourcesindia.com/" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Bootstrap 5 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="container nav-container">
-      <a class="logo" href="#home">Manpower Resources</a>
-      <nav class="main-nav" aria-label="Main navigation">
-        <ul>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#approach">Approach</a></li>
-          <li><a href="#how">How it Works</a></li>
-          <li><a href="#mission">Mission</a></li>
-          <li><a href="#contact">Contact</a></li>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar navbar-expand-lg sticky-top" id="mainNavbar" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="#home" aria-label="Manpower Resources India Home">
+        <div class="brand-icon" aria-hidden="true">
+          <i class="bi bi-people-fill"></i>
+        </div>
+        <div>
+          <span class="brand-name">Manpower Resources</span>
+          <span class="brand-sub">India Pvt. Ltd.</span>
+        </div>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+        aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation" id="navToggler">
+        <span class="toggler-bar"></span>
+        <span class="toggler-bar"></span>
+        <span class="toggler-bar"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#approach">Our Approach</a></li>
+          <li class="nav-item"><a class="nav-link" href="#why-us">Why Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#how-it-works">How It Works</a></li>
+          <li class="nav-item"><a class="nav-link" href="#mission">Mission</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item ms-lg-2">
+            <a class="btn btn-primary-custom" href="#contact" id="navCta">Get Started</a>
+          </li>
         </ul>
-      </nav>
-      <a class="cta btn" href="#contact">Get in Touch</a>
-      <button class="nav-toggle" aria-label="Open navigation">☰</button>
+      </div>
     </div>
-  </header>
+  </nav>
 
-  <main>
-    <section id="home" class="hero">
-      <div class="container hero-grid">
-        <div class="hero-left">
-          <h1>Manpower Resources India Private Limited</h1>
-          <p class="lead">Helping businesses find the right talent and job seekers find the perfect opportunities</p>
-          <div class="hero-actions">
-            <a class="btn primary" href="#contact">Get in Touch</a>
-            <a class="btn outline" href="#services">Our Services</a>
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero-section" id="home" aria-label="Hero section">
+    <!-- Floating decorative blobs -->
+    <div class="blob blob-1" aria-hidden="true"></div>
+    <div class="blob blob-2" aria-hidden="true"></div>
+    <div class="blob blob-3" aria-hidden="true"></div>
+
+    <!-- Floating particles -->
+    <div class="particles-container" aria-hidden="true">
+      <span class="particle"></span>
+      <span class="particle"></span>
+      <span class="particle"></span>
+      <span class="particle"></span>
+      <span class="particle"></span>
+    </div>
+
+    <div class="container">
+      <div class="row align-items-center min-vh-hero">
+        <!-- Left: Text Content -->
+        <div class="col-lg-6 hero-content">
+          <div class="hero-badge reveal-fade">
+            <i class="bi bi-award-fill"></i> Trusted Since 2015 · 500+ Placements
           </div>
-          <div class="floating-stats">
-            <div class="stat glass">
-              <strong class="count" data-target="1200">0</strong>
-              <span>Placements</span>
+          <h1 class="hero-heading reveal-slide-up">
+            Manpower Resources<br />
+            <span class="gradient-text">India Private Limited</span>
+          </h1>
+          <p class="hero-subheading reveal-slide-up delay-1">
+            Helping businesses find the right talent and job seekers find the perfect opportunities — with precision, speed, and integrity.
+          </p>
+          <div class="hero-cta-group reveal-slide-up delay-2">
+            <a href="#contact" class="btn-hero-primary" id="heroGetInTouch">
+              Get in Touch <i class="bi bi-arrow-right-circle-fill"></i>
+            </a>
+            <a href="#services" class="btn-hero-secondary" id="heroExplore">
+              Explore Services
+            </a>
+          </div>
+          <!-- Stats row -->
+          <div class="hero-stats reveal-fade delay-3">
+            <div class="stat-item">
+              <span class="stat-number">500+</span>
+              <span class="stat-label">Placements</span>
             </div>
-            <div class="stat glass">
-              <strong class="count" data-target="450">0</strong>
-              <span>Clients</span>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat-item">
+              <span class="stat-number">10+</span>
+              <span class="stat-label">Years Exp.</span>
+            </div>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat-item">
+              <span class="stat-number">100+</span>
+              <span class="stat-label">Clients</span>
             </div>
           </div>
         </div>
-        <div class="hero-right">
-          <!-- SVG illustration placeholder (replace with Storyset/unDraw) -->
-          <figure class="illustration" aria-hidden="true">
-            <svg viewBox="0 0 600 400" role="img" xmlns="http://www.w3.org/2000/svg">
-              <title>Professional on phone with dashboard</title>
-              <rect width="100%" height="100%" rx="24" fill="url(#g)"/>
-              <defs>
-                <linearGradient id="g" x1="0" x2="1">
-                  <stop offset="0" stop-color="#e6f0ff" />
-                  <stop offset="1" stop-color="#ffffff" />
-                </linearGradient>
-              </defs>
-              <!-- stylized person -->
-              <g transform="translate(60,40)">
-                <circle cx="200" cy="80" r="48" fill="#7aa7ff" />
-                <rect x="150" y="140" width="160" height="100" rx="10" fill="#ffffff" opacity="0.9" />
-                <rect x="170" y="160" width="40" height="8" rx="3" fill="#e6f0ff" />
-                <rect x="220" y="160" width="80" height="8" rx="3" fill="#d7e9ff" />
-              </g>
-            </svg>
-          </figure>
-          <div class="floating-elements">
-            <span class="float circle" data-parallax="0.4"></span>
-            <span class="float small" data-parallax="0.2"></span>
+
+        <!-- Right: Visual Cards -->
+        <div class="col-lg-6 hero-visual reveal-fade delay-2">
+          <div class="hero-cards-wrapper">
+            <!-- Main card -->
+            <div class="hero-main-card float-animation">
+              <div class="hmc-header">
+                <div class="hmc-avatar" aria-label="Professional recruiter avatar">
+                  <i class="bi bi-person-workspace"></i>
+                </div>
+                <div>
+                  <div class="hmc-name">Talent Dashboard</div>
+                  <div class="hmc-sub">Live Recruitment Pipeline</div>
+                </div>
+              </div>
+              <div class="hmc-chart" aria-label="Recruitment analytics chart">
+                <div class="hmc-bar" style="--h:70%" aria-label="70% placed"></div>
+                <div class="hmc-bar" style="--h:90%" aria-label="90% placed"></div>
+                <div class="hmc-bar" style="--h:55%" aria-label="55% placed"></div>
+                <div class="hmc-bar active" style="--h:85%" aria-label="85% placed"></div>
+                <div class="hmc-bar" style="--h:75%" aria-label="75% placed"></div>
+              </div>
+              <div class="hmc-metric">
+                <span class="hmc-value">87%</span>
+                <span class="hmc-label">Placement Rate</span>
+              </div>
+            </div>
+
+            <!-- Floating notification cards -->
+            <div class="hero-notif notif-1 float-animation delay-float">
+              <i class="bi bi-check-circle-fill text-success"></i>
+              <div>
+                <div class="notif-title">Offer Accepted!</div>
+                <div class="notif-sub">Senior Engineer · ₹18 LPA</div>
+              </div>
+            </div>
+
+            <div class="hero-notif notif-2 float-animation">
+              <i class="bi bi-briefcase-fill text-primary"></i>
+              <div>
+                <div class="notif-title">New Opening</div>
+                <div class="notif-sub">Tata Group · Delhi</div>
+              </div>
+            </div>
+
+            <div class="hero-notif notif-3 float-animation delay-float">
+              <i class="bi bi-people-fill" style="color:#6c63ff"></i>
+              <div>
+                <div class="notif-title">Candidates Sourced</div>
+                <div class="notif-sub">42 Shortlisted Today</div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="clients" class="clients">
-      <div class="container">
-        <h2>Trusted By</h2>
-        <div class="client-logos">
-          <!-- Replace src with real logos; using inline svgs for demo -->
-          <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='60'><rect width='200' height='60' fill='%23ddd'/><text x='10' y='38' font-family='Poppins' font-size='18' fill='%23666'>TATA</text></svg>" alt="Tata logo" loading="lazy">
-          <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='60'><rect width='200' height='60' fill='%23ddd'/><text x='10' y='38' font-family='Poppins' font-size='18' fill='%23666'>ADANI</text></svg>" alt="Adani logo" loading="lazy">
-          <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='60'><rect width='200' height='60' fill='%23ddd'/><text x='10' y='38' font-family='Poppins' font-size='18' fill='%23666'>BAJAJ</text></svg>" alt="Bajaj logo" loading="lazy">
+  <!-- ===== CLIENT LOGOS ===== -->
+  <section class="clients-section" id="clients" aria-label="Our clients">
+    <div class="container">
+      <p class="clients-label reveal-fade">Trusted by Industry Leaders</p>
+      <div class="clients-track">
+        <div class="clients-slide">
+          <div class="client-logo" title="Tata Group" aria-label="Tata Group logo">
+            <i class="bi bi-buildings-fill"></i> TATA
+          </div>
+          <div class="client-logo" title="Adani Group" aria-label="Adani Group logo">
+            <i class="bi bi-lightning-charge-fill"></i> ADANI
+          </div>
+          <div class="client-logo" title="Bajaj" aria-label="Bajaj logo">
+            <i class="bi bi-gear-fill"></i> BAJAJ
+          </div>
+          <div class="client-logo" title="Infosys" aria-label="Infosys logo">
+            <i class="bi bi-code-slash"></i> INFOSYS
+          </div>
+          <div class="client-logo" title="Reliance Industries" aria-label="Reliance logo">
+            <i class="bi bi-fuel-pump-fill"></i> RELIANCE
+          </div>
+          <div class="client-logo" title="Wipro" aria-label="Wipro logo">
+            <i class="bi bi-pc-display-horizontal"></i> WIPRO
+          </div>
+          <div class="client-logo" title="HCL" aria-label="HCL logo">
+            <i class="bi bi-cpu-fill"></i> HCL
+          </div>
+          <div class="client-logo" title="Tech Mahindra" aria-label="Tech Mahindra logo">
+            <i class="bi bi-broadcast-pin"></i> MAHINDRA
+          </div>
+          <!-- Duplicate for infinite scroll -->
+          <div class="client-logo" title="Tata Group" aria-label="Tata Group logo">
+            <i class="bi bi-buildings-fill"></i> TATA
+          </div>
+          <div class="client-logo" title="Adani Group" aria-label="Adani Group logo">
+            <i class="bi bi-lightning-charge-fill"></i> ADANI
+          </div>
+          <div class="client-logo" title="Bajaj" aria-label="Bajaj logo">
+            <i class="bi bi-gear-fill"></i> BAJAJ
+          </div>
+          <div class="client-logo" title="Infosys" aria-label="Infosys logo">
+            <i class="bi bi-code-slash"></i> INFOSYS
+          </div>
+          <div class="client-logo" title="Reliance Industries" aria-label="Reliance logo">
+            <i class="bi bi-fuel-pump-fill"></i> RELIANCE
+          </div>
+          <div class="client-logo" title="Wipro" aria-label="Wipro logo">
+            <i class="bi bi-pc-display-horizontal"></i> WIPRO
+          </div>
+          <div class="client-logo" title="HCL" aria-label="HCL logo">
+            <i class="bi bi-cpu-fill"></i> HCL
+          </div>
+          <div class="client-logo" title="Tech Mahindra" aria-label="Tech Mahindra logo">
+            <i class="bi bi-broadcast-pin"></i> MAHINDRA
+          </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="services" class="services">
-      <div class="container">
-        <h2>Our Exceptional Services</h2>
-        <div class="cards">
-          <article class="card glass reveal">
-            <div class="icon">📚</div>
-            <h3>Database Selection</h3>
-            <p>Fast access to a curated database of pre-screened candidates matching your requirements.</p>
+  <!-- ===== SERVICES SECTION ===== -->
+  <section class="services-section section-padding" id="services" aria-label="Our services">
+    <div class="container">
+      <div class="section-header reveal-fade">
+        <span class="section-tag">What We Offer</span>
+        <h2 class="section-title">Our Exceptional <span class="gradient-text">Services</span></h2>
+        <p class="section-sub">We provide end-to-end recruitment and staffing solutions tailored to your industry needs.</p>
+      </div>
+
+      <div class="row g-4 justify-content-center">
+        <!-- Service Card 1 -->
+        <div class="col-lg-4 col-md-6">
+          <article class="service-card reveal-slide-up" aria-label="Database Selection service">
+            <div class="service-icon-wrap">
+              <div class="service-icon">
+                <i class="bi bi-database-fill-check" aria-hidden="true"></i>
+              </div>
+            </div>
+            <h3 class="service-title">Database Selection</h3>
+            <p class="service-desc">We tap into our extensive curated talent database to match candidates with precision, reducing your time-to-hire dramatically.</p>
+            <ul class="service-points">
+              <li><i class="bi bi-check2-circle" aria-hidden="true"></i> Verified candidate profiles</li>
+              <li><i class="bi bi-check2-circle" aria-hidden="true"></i> Role-specific filtering</li>
+              <li><i class="bi bi-check2-circle" aria-hidden="true"></i> Rapid shortlisting</li>
+            </ul>
+            <a href="#contact" class="service-link">Learn More <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
           </article>
-          <article class="card glass reveal">
-            <div class="icon">📣</div>
-            <h3>Advertised Selection</h3>
-            <p>Targeted job campaigns and adverts to attract the right talent across channels.</p>
+        </div>
+
+        <!-- Service Card 2 -->
+        <div class="col-lg-4 col-md-6">
+          <article class="service-card reveal-slide-up delay-1" aria-label="Advertised Selection service">
+            <div class="service-icon-wrap">
+              <div class="service-icon service-icon-2">
+                <i class="bi bi-megaphone-fill" aria-hidden="true"></i>
+              </div>
+            </div>
+            <h3 class="service-title">Advertised Selection</h3>
+            <p class="service-desc">We craft and run targeted multi-channel job campaigns across platforms to attract qualified applicants for your openings.</p>
+            <ul class="service-points">
+              <li><i class="bi bi-check2-circle" aria-hidden="true"></i> Multi-platform reach</li>
+              <li><i class="bi bi-check2-circle" aria-hidden="true"></i> Brand-aligned campaigns</li>
+              <li><i class="bi bi-check2-circle" aria-hidden="true"></i> Analytics & reporting</li>
+            </ul>
+            <a href="#contact" class="service-link">Learn More <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
           </article>
-          <article class="card glass reveal">
-            <div class="icon">🔎</div>
-            <h3>Focused Head Hunting</h3>
-            <p>Executive search and focused headhunting to secure top-tier professionals.</p>
+        </div>
+
+        <!-- Service Card 3 -->
+        <div class="col-lg-4 col-md-6">
+          <article class="service-card reveal-slide-up delay-2" aria-label="Focused Head Hunting service">
+            <div class="service-icon-wrap">
+              <div class="service-icon service-icon-3">
+                <i class="bi bi-crosshair2" aria-hidden="true"></i>
+              </div>
+            </div>
+            <h3 class="service-title">Focused Head Hunting</h3>
+            <p class="service-desc">For senior and niche roles, our expert headhunters identify and approach passive top-talent who aren't on the job market.</p>
+            <ul class="service-points">
+              <li><i class="bi bi-check2-circle" aria-hidden="true"></i> C-suite & leadership roles</li>
+              <li><i class="bi bi-check2-circle" aria-hidden="true"></i> Passive talent acquisition</li>
+              <li><i class="bi bi-check2-circle" aria-hidden="true"></i> Confidential search</li>
+            </ul>
+            <a href="#contact" class="service-link">Learn More <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
           </article>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="approach" class="approach">
-      <div class="container approach-grid">
-        <div class="approach-left reveal">
-          <h2>Our Approach</h2>
-          <p>We combine market research, targeted sourcing, behavioral assessment and data-driven shortlisting to deliver candidates who fit both skill and culture.</p>
-          <ul class="approach-list">
-            <li>Market mapping & talent pool analysis</li>
-            <li>Custom screening & technical evaluation</li>
-            <li>Structured interview support & onboarding guidance</li>
-          </ul>
+  <!-- ===== OUR APPROACH ===== -->
+  <section class="approach-section section-padding" id="approach" aria-label="Our approach">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <!-- Left: Text -->
+        <div class="col-lg-6">
+          <div class="section-tag reveal-fade">Our Strategy</div>
+          <h2 class="section-title reveal-slide-up">A Smarter <span class="gradient-text">Recruitment Approach</span></h2>
+          <p class="approach-desc reveal-slide-up delay-1">
+            Our data-driven recruitment strategy combines human insight with modern technology. We don't just fill vacancies — we build teams that drive business growth.
+          </p>
+          <div class="approach-steps">
+            <div class="approach-step reveal-slide-up delay-1">
+              <div class="step-num" aria-hidden="true">01</div>
+              <div>
+                <h4>Understand Your Business</h4>
+                <p>We begin by deeply understanding your culture, goals, and specific talent needs.</p>
+              </div>
+            </div>
+            <div class="approach-step reveal-slide-up delay-2">
+              <div class="step-num" aria-hidden="true">02</div>
+              <div>
+                <h4>Multi-Source Talent Pipeline</h4>
+                <p>We source from our database, job portals, networks, and targeted headhunting.</p>
+              </div>
+            </div>
+            <div class="approach-step reveal-slide-up delay-3">
+              <div class="step-num" aria-hidden="true">03</div>
+              <div>
+                <h4>Rigorous Screening</h4>
+                <p>Every candidate undergoes thorough skill, cultural, and background assessments.</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="approach-right reveal" aria-hidden="true">
-          <figure class="chart-illustration">
-            <svg width="100%" height="280" viewBox="0 0 600 280" xmlns="http://www.w3.org/2000/svg">
-              <rect width="100%" height="100%" rx="14" fill="#f6fbff"/>
-              <g transform="translate(30,40)">
-                <rect x="0" y="110" width="40" height="120" fill="#7aa7ff" rx="6"/>
-                <rect x="80" y="60" width="40" height="170" fill="#4f8cff" rx="6"/>
-                <rect x="160" y="20" width="40" height="210" fill="#2f6ef7" rx="6"/>
-                <rect x="240" y="80" width="40" height="150" fill="#7aa7ff" rx="6"/>
-              </g>
-            </svg>
-          </figure>
+
+        <!-- Right: Visual -->
+        <div class="col-lg-6 reveal-scale">
+          <div class="approach-visual">
+            <div class="approach-chart-card">
+              <div class="achart-header">
+                <span class="achart-title"><i class="bi bi-graph-up-arrow"></i> Recruitment Analytics</span>
+                <span class="achart-badge">Live</span>
+              </div>
+              <div class="achart-bars" aria-label="Recruitment metrics chart">
+                <div class="achart-row">
+                  <span>Database Search</span>
+                  <div class="achart-bar-wrap">
+                    <div class="achart-fill" style="--w:88%" aria-label="88%"></div>
+                  </div>
+                  <span>88%</span>
+                </div>
+                <div class="achart-row">
+                  <span>Advertised</span>
+                  <div class="achart-bar-wrap">
+                    <div class="achart-fill" style="--w:72%" aria-label="72%"></div>
+                  </div>
+                  <span>72%</span>
+                </div>
+                <div class="achart-row">
+                  <span>Head Hunting</span>
+                  <div class="achart-bar-wrap">
+                    <div class="achart-fill achart-fill-alt" style="--w:95%" aria-label="95%"></div>
+                  </div>
+                  <span>95%</span>
+                </div>
+                <div class="achart-row">
+                  <span>Retention Rate</span>
+                  <div class="achart-bar-wrap">
+                    <div class="achart-fill achart-fill-green" style="--w:91%" aria-label="91%"></div>
+                  </div>
+                  <span>91%</span>
+                </div>
+              </div>
+              <div class="achart-summary">
+                <div class="achart-stat">
+                  <span class="astat-val">15 Days</span>
+                  <span class="astat-lbl">Avg. Time-to-Hire</span>
+                </div>
+                <div class="achart-stat">
+                  <span class="astat-val">97%</span>
+                  <span class="astat-lbl">Client Satisfaction</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="why" class="why-choose">
-      <div class="container">
-        <h2>Why Choose Us</h2>
-        <div class="why-grid">
-          <div class="why-item">
-            <div class="icon">👥</div>
+  <!-- ===== WHY CHOOSE US ===== -->
+  <section class="why-section section-padding" id="why-us" aria-label="Why choose us">
+    <div class="container">
+      <div class="section-header reveal-fade">
+        <span class="section-tag">Our Advantage</span>
+        <h2 class="section-title">Why Choose <span class="gradient-text">Manpower Resources India</span></h2>
+        <p class="section-sub">We combine expertise, technology, and personal touch to deliver exceptional recruitment outcomes.</p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-lg-3 col-md-6">
+          <div class="why-card reveal-slide-up">
+            <div class="why-icon" aria-hidden="true"><i class="bi bi-person-check-fill"></i></div>
             <h3>Experienced Consultants</h3>
-            <p>Decades of combined expertise in recruitment across industries.</p>
+            <p>Our team of seasoned HR professionals bring 10+ years of domain expertise across multiple industries.</p>
           </div>
-          <div class="why-item">
-            <div class="icon">🏭</div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="why-card reveal-slide-up delay-1">
+            <div class="why-icon why-icon-2" aria-hidden="true"><i class="bi bi-building-gear"></i></div>
             <h3>Industry Expertise</h3>
-            <p>Deep domain knowledge to quickly identify high-quality candidates.</p>
+            <p>From IT to manufacturing, BFSI to healthcare — we understand the nuances of every sector we serve.</p>
           </div>
-          <div class="why-item">
-            <div class="icon">⚡</div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="why-card reveal-slide-up delay-2">
+            <div class="why-icon why-icon-3" aria-hidden="true"><i class="bi bi-rocket-takeoff-fill"></i></div>
             <h3>Fast Hiring Process</h3>
-            <p>Streamlined workflows for quick shortlisting and onboarding.</p>
+            <p>Our streamlined process reduces average time-to-hire to under 15 days, keeping your business moving.</p>
           </div>
-          <div class="why-item">
-            <div class="icon">✅</div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="why-card reveal-slide-up delay-3">
+            <div class="why-icon why-icon-4" aria-hidden="true"><i class="bi bi-shield-fill-check"></i></div>
             <h3>Quality Candidates</h3>
-            <p>Rigorous screening ensuring cultural and technical fit.</p>
+            <p>Every candidate is pre-screened, reference-checked, and verified before they reach your desk.</p>
           </div>
         </div>
-      </div>
-    </section>
-
-    <section id="how" class="how-it-works">
-      <div class="container">
-        <h2>How Does It Work</h2>
-        <div class="steps">
-          <div class="step card reveal">
-            <div class="num">1</div>
-            <h3>Attract & Source</h3>
-            <p>Broad sourcing using databases, adverts and referrals.</p>
-          </div>
-          <div class="step card reveal">
-            <div class="num">2</div>
-            <h3>Screen & Assess</h3>
-            <p>Structured screening with assessments and interviews.</p>
-          </div>
-          <div class="step card reveal">
-            <div class="num">3</div>
-            <h3>Select</h3>
-            <p>Final selection & offer management to ensure smooth onboarding.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="mission" class="mission">
-      <div class="container mission-grid">
-        <div class="mission-left reveal">
-          <h2>Mission & Vision</h2>
-          <p class="mission-text"><strong>Mission:</strong> To bridge talent and opportunity by delivering reliable staffing solutions that drive business growth.</p>
-          <p class="mission-text"><strong>Vision:</strong> To be the preferred recruitment partner across industries in India for talent excellence.</p>
-          <a class="btn outline" href="#contact">Know More</a>
-        </div>
-        <div class="mission-right reveal">
-          <figure>
-            <svg viewBox="0 0 300 220" xmlns="http://www.w3.org/2000/svg" role="img">
-              <title>Mission illustration</title>
-              <rect width="100%" height="100%" rx="10" fill="#f3f8ff"/>
-              <circle cx="60" cy="60" r="18" fill="#7aa7ff"/>
-              <circle cx="120" cy="40" r="14" fill="#4f8cff"/>
-              <circle cx="190" cy="75" r="20" fill="#2f6ef7"/>
-            </svg>
-          </figure>
-          <div class="socials">
-            <a href="#" aria-label="LinkedIn">in</a>
-            <a href="#" aria-label="Twitter">tw</a>
-            <a href="#" aria-label="Facebook">fb</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="cta-banner">
-      <div class="container cta-grid">
-        <div>
-          <h2>Find the perfect job for you</h2>
-          <p>Talk to our consultants and get personalized job matching.</p>
-        </div>
-        <div>
-          <a class="btn gradient" href="#contact">Contact Us</a>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="contact">
-      <div class="container contact-grid">
-        <div class="contact-left">
-          <h2>Contact Us</h2>
-          <p>Phone: <a href="tel:+917080932003">7080932003</a></p>
-          <p>Email: <a href="mailto:Swapnilpy2003@gmail.com">Swapnilpy2003@gmail.com</a></p>
-          <p>Location: Noida, India</p>
-        </div>
-        <form id="contactForm" class="contact-form" novalidate>
-          <label for="name">Name</label>
-          <input id="name" name="name" type="text" required>
-
-          <label for="email">Email</label>
-          <input id="email" name="email" type="email" required>
-
-          <label for="phone">Phone</label>
-          <input id="phone" name="phone" type="tel" pattern="[0-9+\-\s]{7,15}" required>
-
-          <label for="message">Message</label>
-          <textarea id="message" name="message" rows="4" required></textarea>
-
-          <button type="submit" class="btn primary">Send Message</button>
-          <div id="formMsg" role="status" aria-live="polite"></div>
-        </form>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <div>
-        <h4>Manpower Resources India Pvt Ltd</h4>
-        <p>Noida, India</p>
-      </div>
-      <div>
-        <h5>Services</h5>
-        <ul>
-          <li><a href="#services">Database Selection</a></li>
-          <li><a href="#services">Advertised Selection</a></li>
-          <li><a href="#services">Focused Head Hunting</a></li>
-        </ul>
-      </div>
-      <div>
-        <h5>Contact</h5>
-        <p>Phone: 7080932003</p>
-        <p>Email: Swapnilpy2003@gmail.com</p>
       </div>
     </div>
-    <div class="copyright">© <span id="year"></span> Manpower Resources India Private Limited</div>
+  </section>
+
+  <!-- ===== HOW IT WORKS ===== -->
+  <section class="how-section section-padding" id="how-it-works" aria-label="How our process works">
+    <div class="container">
+      <div class="section-header reveal-fade">
+        <span class="section-tag">The Process</span>
+        <h2 class="section-title">How Does It <span class="gradient-text">Work?</span></h2>
+        <p class="section-sub">Our proven 3-step framework ensures quality results every time.</p>
+      </div>
+
+      <div class="how-timeline">
+        <div class="how-connector" aria-hidden="true"></div>
+        <div class="row g-4 justify-content-center">
+
+          <!-- Step 1 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="how-card reveal-slide-up">
+              <div class="how-step-num" aria-label="Step 1">01</div>
+              <div class="how-icon" aria-hidden="true">
+                <i class="bi bi-search-heart-fill"></i>
+              </div>
+              <h3>Attract &amp; Source</h3>
+              <p>We deploy multi-channel sourcing strategies — database, portals, social networks, and executive search — to attract the best talent pool for your role.</p>
+              <div class="how-tags">
+                <span>Job Portals</span>
+                <span>Social Media</span>
+                <span>Network</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="how-card how-card-featured reveal-slide-up delay-1">
+              <div class="how-step-num how-step-featured" aria-label="Step 2">02</div>
+              <div class="how-icon how-icon-featured" aria-hidden="true">
+                <i class="bi bi-clipboard2-check-fill"></i>
+              </div>
+              <h3>Screen &amp; Assess</h3>
+              <p>Candidates undergo multi-stage screening including skill tests, behavioral interviews, and cultural fit assessments to ensure only the best proceed.</p>
+              <div class="how-tags">
+                <span>Skill Tests</span>
+                <span>Interviews</span>
+                <span>Background Check</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="how-card reveal-slide-up delay-2">
+              <div class="how-step-num" aria-label="Step 3">03</div>
+              <div class="how-icon" aria-hidden="true">
+                <i class="bi bi-trophy-fill"></i>
+              </div>
+              <h3>Select</h3>
+              <p>We present your final shortlist with detailed candidate profiles, facilitate negotiations, and provide post-placement support for seamless onboarding.</p>
+              <div class="how-tags">
+                <span>Shortlist</span>
+                <span>Offer Support</span>
+                <span>Onboarding</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MISSION & VISION ===== -->
+  <section class="mission-section section-padding" id="mission" aria-label="Mission and Vision">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <!-- Left: Content -->
+        <div class="col-lg-6">
+          <span class="section-tag reveal-fade">Our Purpose</span>
+          <h2 class="section-title reveal-slide-up">Mission &amp; <span class="gradient-text">Vision</span></h2>
+
+          <div class="mv-card reveal-slide-up delay-1">
+            <div class="mv-icon"><i class="bi bi-bullseye" aria-hidden="true"></i></div>
+            <div>
+              <h3>Our Mission</h3>
+              <p>To bridge the gap between exceptional talent and forward-thinking organizations by providing transparent, ethical, and high-quality recruitment services that create lasting value for both businesses and individuals.</p>
+            </div>
+          </div>
+
+          <div class="mv-card reveal-slide-up delay-2">
+            <div class="mv-icon mv-icon-2"><i class="bi bi-eye-fill" aria-hidden="true"></i></div>
+            <div>
+              <h3>Our Vision</h3>
+              <p>To become India's most trusted manpower consultancy, recognized for our integrity, innovation, and the transformative impact we create in people's careers and businesses' growth trajectories.</p>
+            </div>
+          </div>
+
+          <a href="#contact" class="btn-primary-custom mt-4 d-inline-flex align-items-center gap-2 reveal-fade delay-3" id="knowMoreBtn">
+            Know More <i class="bi bi-arrow-right-circle-fill" aria-hidden="true"></i>
+          </a>
+        </div>
+
+        <!-- Right: Visual with social -->
+        <div class="col-lg-6 reveal-scale">
+          <div class="mission-visual">
+            <div class="mission-main-card">
+              <div class="mission-icon-big" aria-hidden="true">
+                <i class="bi bi-people-fill"></i>
+              </div>
+              <h4>Building India's Workforce</h4>
+              <p>Connecting dreams with opportunities, one placement at a time.</p>
+              <div class="mission-values">
+                <span class="mission-val"><i class="bi bi-heart-fill"></i> Integrity</span>
+                <span class="mission-val"><i class="bi bi-lightbulb-fill"></i> Innovation</span>
+                <span class="mission-val"><i class="bi bi-star-fill"></i> Excellence</span>
+              </div>
+            </div>
+            <div class="mission-social-strip">
+              <span>Connect with us:</span>
+              <a href="#" class="ms-icon" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+              <a href="#" class="ms-icon" aria-label="Twitter/X"><i class="bi bi-twitter-x"></i></a>
+              <a href="#" class="ms-icon" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="ms-icon" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA BANNER ===== -->
+  <section class="cta-banner" aria-label="Call to action">
+    <div class="cta-wave-top" aria-hidden="true"></div>
+    <div class="container">
+      <div class="cta-content reveal-fade">
+        <div class="cta-badge"><i class="bi bi-briefcase-fill"></i> 500+ Jobs Available</div>
+        <h2>Find the Perfect Job <span>for You</span></h2>
+        <p>Whether you're a job seeker or an employer — we have the right solution waiting for you. Let's make it happen.</p>
+        <div class="cta-btn-group">
+          <a href="#contact" class="cta-btn-primary" id="ctaContactUs">Contact Us <i class="bi bi-send-fill"></i></a>
+          <a href="tel:7080932003" class="cta-btn-outline" id="ctaCallNow"><i class="bi bi-telephone-fill"></i> Call Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="cta-wave-bottom" aria-hidden="true"></div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section class="contact-section section-padding" id="contact" aria-label="Contact us">
+    <div class="container">
+      <div class="section-header reveal-fade">
+        <span class="section-tag">Get In Touch</span>
+        <h2 class="section-title">Let's Talk <span class="gradient-text">Recruitment</span></h2>
+        <p class="section-sub">Fill in the form below and our team will get back to you within 24 hours.</p>
+      </div>
+
+      <div class="row g-5 align-items-start">
+        <!-- Contact Info -->
+        <div class="col-lg-4">
+          <div class="contact-info reveal-slide-up">
+            <h3>Contact Information</h3>
+
+            <div class="contact-item">
+              <div class="ci-icon" aria-hidden="true"><i class="bi bi-telephone-fill"></i></div>
+              <div>
+                <div class="ci-label">Phone</div>
+                <a href="tel:7080932003" class="ci-value">+91 70809 32003</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="ci-icon ci-icon-2" aria-hidden="true"><i class="bi bi-envelope-fill"></i></div>
+              <div>
+                <div class="ci-label">Email</div>
+                <a href="mailto:Swapnilpy2003@gmail.com" class="ci-value">Swapnilpy2003@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="ci-icon ci-icon-3" aria-hidden="true"><i class="bi bi-geo-alt-fill"></i></div>
+              <div>
+                <div class="ci-label">Location</div>
+                <span class="ci-value">Noida, Uttar Pradesh, India</span>
+              </div>
+            </div>
+
+            <div class="contact-hours">
+              <i class="bi bi-clock-fill" aria-hidden="true"></i>
+              <div>
+                <strong>Business Hours</strong>
+                <p>Monday – Saturday: 9:00 AM – 6:00 PM</p>
+              </div>
+            </div>
+
+            <div class="contact-socials">
+              <a href="#" aria-label="LinkedIn profile"><i class="bi bi-linkedin"></i></a>
+              <a href="#" aria-label="Twitter profile"><i class="bi bi-twitter-x"></i></a>
+              <a href="#" aria-label="Instagram profile"><i class="bi bi-instagram"></i></a>
+              <a href="#" aria-label="Facebook profile"><i class="bi bi-facebook"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="col-lg-8">
+          <div class="contact-form-card reveal-slide-up delay-1">
+            <form id="contactForm" novalidate aria-label="Contact form">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <div class="form-group-custom">
+                    <label for="fullName">Full Name <span aria-hidden="true">*</span></label>
+                    <input
+                      type="text"
+                      id="fullName"
+                      name="fullName"
+                      class="form-input"
+                      placeholder="Enter your full name"
+                      required
+                      autocomplete="name"
+                      aria-required="true"
+                    />
+                    <span class="form-error" id="nameError" role="alert"></span>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group-custom">
+                    <label for="emailAddr">Email Address <span aria-hidden="true">*</span></label>
+                    <input
+                      type="email"
+                      id="emailAddr"
+                      name="email"
+                      class="form-input"
+                      placeholder="Enter your email"
+                      required
+                      autocomplete="email"
+                      aria-required="true"
+                    />
+                    <span class="form-error" id="emailError" role="alert"></span>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group-custom">
+                    <label for="phoneNum">Phone Number <span aria-hidden="true">*</span></label>
+                    <input
+                      type="tel"
+                      id="phoneNum"
+                      name="phone"
+                      class="form-input"
+                      placeholder="+91 XXXXX XXXXX"
+                      required
+                      autocomplete="tel"
+                      aria-required="true"
+                    />
+                    <span class="form-error" id="phoneError" role="alert"></span>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group-custom">
+                    <label for="enquiryType">Enquiry Type</label>
+                    <select id="enquiryType" name="enquiryType" class="form-input" aria-label="Select enquiry type">
+                      <option value="">Select enquiry type</option>
+                      <option value="employer">I'm an Employer</option>
+                      <option value="jobseeker">I'm a Job Seeker</option>
+                      <option value="partnership">Partnership</option>
+                      <option value="other">Other</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-group-custom">
+                    <label for="messageText">Message <span aria-hidden="true">*</span></label>
+                    <textarea
+                      id="messageText"
+                      name="message"
+                      class="form-input"
+                      placeholder="Write your message here..."
+                      rows="5"
+                      required
+                      aria-required="true"
+                    ></textarea>
+                    <span class="form-error" id="messageError" role="alert"></span>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn-submit" id="submitBtn" aria-label="Send message">
+                    <span class="btn-text">Send Message</span>
+                    <span class="btn-icon"><i class="bi bi-send-fill"></i></span>
+                    <span class="btn-loader" aria-hidden="true"></span>
+                  </button>
+                </div>
+              </div>
+              <div id="formSuccessMsg" class="form-success" role="status" aria-live="polite"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" role="contentinfo" aria-label="Site footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row g-5">
+          <!-- Brand -->
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-brand">
+              <div class="footer-logo">
+                <i class="bi bi-people-fill" aria-hidden="true"></i>
+                <div>
+                  <span>Manpower Resources</span>
+                  <small>India Private Limited</small>
+                </div>
+              </div>
+              <p>India's trusted recruitment &amp; staffing consultancy. Helping businesses build high-performing teams since 2015.</p>
+              <div class="footer-socials">
+                <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                <a href="#" aria-label="Twitter/X"><i class="bi bi-twitter-x"></i></a>
+                <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Services Links -->
+          <div class="col-lg-2 col-md-6 col-6">
+            <h4 class="footer-heading">Services</h4>
+            <ul class="footer-links">
+              <li><a href="#services">Database Selection</a></li>
+              <li><a href="#services">Advertised Selection</a></li>
+              <li><a href="#services">Head Hunting</a></li>
+              <li><a href="#how-it-works">Our Process</a></li>
+              <li><a href="#approach">Our Approach</a></li>
+            </ul>
+          </div>
+
+          <!-- Company Links -->
+          <div class="col-lg-2 col-md-6 col-6">
+            <h4 class="footer-heading">Company</h4>
+            <ul class="footer-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#why-us">Why Choose Us</a></li>
+              <li><a href="#mission">Mission &amp; Vision</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact Details -->
+          <div class="col-lg-4 col-md-6">
+            <h4 class="footer-heading">Get In Touch</h4>
+            <div class="footer-contact">
+              <div class="fc-item">
+                <i class="bi bi-telephone-fill" aria-hidden="true"></i>
+                <a href="tel:7080932003">+91 70809 32003</a>
+              </div>
+              <div class="fc-item">
+                <i class="bi bi-envelope-fill" aria-hidden="true"></i>
+                <a href="mailto:Swapnilpy2003@gmail.com">Swapnilpy2003@gmail.com</a>
+              </div>
+              <div class="fc-item">
+                <i class="bi bi-geo-alt-fill" aria-hidden="true"></i>
+                <span>Noida, Uttar Pradesh – 201301</span>
+              </div>
+              <div class="fc-item">
+                <i class="bi bi-clock-fill" aria-hidden="true"></i>
+                <span>Mon – Sat: 9AM – 6PM</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; <span id="copyYear"></span> Manpower Resources India Private Limited. All rights reserved.</p>
+        <p>Crafted with <i class="bi bi-heart-fill text-danger" aria-hidden="true"></i> for connecting talent &amp; opportunity.</p>
+      </div>
+    </div>
   </footer>
 
-  <script src="script.js" defer></script>
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top" title="Back to top">
+    <i class="bi bi-chevron-up" aria-hidden="true"></i>
+  </button>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
 </body>
 </html>
