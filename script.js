@@ -1,6 +1,6 @@
 /**
  * =====================================================
- * MANPOWER RESOURCES INDIA PRIVATE LIMITED
+ * Manpower Supply  
  * script.js — Interactions, Animations & Form Validation
  * =====================================================
  */
@@ -481,7 +481,7 @@ if ('loading' in HTMLImageElement.prototype) {
    14. CONSOLE BRANDING
    =================================================== */
 console.log(
-  '%c Manpower Resources India Pvt. Ltd. ',
+  '%c Manpower Supply India Pvt. Ltd. ',
   'background: linear-gradient(135deg, #1a56db, #6c63ff); color: white; font-size: 14px; font-weight: bold; padding: 8px 16px; border-radius: 4px;'
 );
 console.log('%c Website crafted with precision and care.', 'color: #6b7a99; font-size: 12px;');
